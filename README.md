@@ -26,7 +26,7 @@
 ## Undistortion
 - Copy that matrix value then replace the `mtx` and `dist` array value on the `undistortion.py`, `undistortion_remapping.py` and `undistortion_cam_stream.py`
 - After that, we do undistortion image by running `undistortion.py` or `undistortion_remapping.py` (undistortion mapping)
-- If we want to test using the camera directly to undistort camera frame, jur run `undistortion_cam_stream.py`.
+- If we want to test using the camera directly to undistort camera frame, just run `undistortion_cam_stream.py`.
 # Source :
 - https://docs.opencv.org/4.5.1/dc/dbb/tutorial_py_calibration.html
 - https://learnopencv.com/camera-calibration-using-opencv/
